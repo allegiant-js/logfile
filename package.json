@@ -1,0 +1,34 @@
+{
+    "name": "@allegiant/logfile",
+    "version": "0.2.1",
+    "description": "Simple logfile library.",
+    "author": "echopoint <echopoint@tutanota.com>",
+    "contributors": [],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/allegiant-js/logfile/issues"
+    },
+    "homepage": "https://github.com/allegiant-js/logfile#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/allegiant-js/logfile.git"
+    },
+    "main": "index.js",
+    "engine": {
+        "node": ">= 6"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "tape test/*.js",
+        "coverage": "tape test/*.js --coverage --coverage-report=lcov"
+    },
+    "dependencies": {
+	},
+    "devDependencies": {
+        "@allegiant/cmdhelper": "0.0.1",
+        "@allegiant/shutdown": "^0.2.1",
+        "eslint": "^4.12.1",
+        "jsdoc": "^3.5.5",
+        "tape": "^4.8.0"
+    }
+}
