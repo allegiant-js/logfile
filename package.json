@@ -1,6 +1,6 @@
 {
     "name": "@allegiant/logfile",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "Simple logfile library.",
     "author": "echopoint <echopoint@tutanota.com>",
     "contributors": [],
@@ -15,20 +15,19 @@
     },
     "main": "index.js",
     "engine": {
-        "node": ">= 6"
+        "node": "> 7.6"
     },
     "scripts": {
         "lint": "eslint .",
-        "test": "tape test/*.js",
-        "coverage": "tape test/*.js --coverage --coverage-report=lcov"
+        "test": "tap test/*.js",
+        "coverage": "tap test/*.js --coverage"
     },
-    "dependencies": {
-	},
+    "dependencies": {},
     "devDependencies": {
         "@allegiant/cmdhelper": "0.0.1",
         "@allegiant/shutdown": "^0.2.1",
         "eslint": "^4.12.1",
         "jsdoc": "^3.5.5",
-        "tape": "^4.8.0"
+        "tap": "^11.0.1"
     }
 }
