@@ -4,8 +4,8 @@
 >> There be 🐲 here! The API and functionality are being cemented, anything before a 1.0.0 release is subject to change.
 
 [![Npm Version](https://img.shields.io/npm/v/@allegiant/logfile.svg)](https://www.npmjs.com/package/@allegiant/logfile)
-[![Build Status](https://travis-ci.org/allegiant-js/logfiile.svg?branch=master)](https://travis-ci.org/allegiant-js/logfiile.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/allegiant-js/logfiile/badge.svg?branch=master)](https://coveralls.io/github/allegiant-js/logfiile?branch=master)
+[![Build Status](https://travis-ci.org/allegiant-js/logfile.svg?branch=master)](https://travis-ci.org/allegiant-js/logfile.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/allegiant-js/logfile/badge.svg?branch=master)](https://coveralls.io/github/allegiant-js/logfile?branch=master)
 
 ## Installation
 
