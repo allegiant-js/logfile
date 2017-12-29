@@ -3,9 +3,17 @@
 > Simple logfile library. Provides a simple, effective way to log stdout and stderr to a file of your choice.
 >> There be 🐲 here! The API and functionality are being cemented, anything before a 1.0.0 release is subject to change.
 
+## Installation
+
+```
+npm install @allegiant/logfile --save
+```
+
+## Usage
+
 ```js
 const path = require('path');
-const LogFile = require('../index').LogFile;
+const { LogFile } = require('@allegiant/logfile');
 
 var live = false;
 var logger = new LogFile( path.resolve('logfile.txt'));
